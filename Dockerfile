@@ -1,6 +1,6 @@
-FROM opensuse/leap:15.4
+FROM registry.opensuse.org/bci/bci-init:latest
 
-ARG GROMMUNIO_REPO=openSUSE_Leap_15.4
+ARG GROMMUNIO_REPO=openSUSE_Tumbleweed
 
 ARG S6_OVERLAY_VERSION=3.1.4.1
 
